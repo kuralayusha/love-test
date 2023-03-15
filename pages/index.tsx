@@ -1,11 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
-import Tests from './test/index'
 
-const inter = Inter({ subsets: ['latin'] })
+import '../styles/Home.module.css'
 
 export default function Home() {
   return (
@@ -22,8 +18,15 @@ export default function Home() {
         />
       </Head>
       <div className="home--page">
-        <Link href={'/test'}>Test</Link>
+        <ul>
+          <li>About The Test</li>
+          <li>
+            <Link href={'/test/settings'}>Lets Start</Link>
+          </li>
+          <li>Who am i ?</li>
+        </ul>
       </div>
+      <div className="do--not--show"></div>
     </>
   )
 }

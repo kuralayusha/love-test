@@ -1,0 +1,49 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Kendisiyle arkadaş olmak ister mi?",
+      "answers": [
+        { "text": "evet", "point": 1, "answered": false },
+        { "text": "bilmiyor", "point": 0, "answered": false },
+        { "text": "hayır", "point": -1, "answered": false }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "benimle arkadaş olmak ister mi?",
+      "answers": [
+        { "text": "he", "point": 1, "answered": false },
+        { "text": "ıh", "point": 0, "answered": false },
+        { "text": "yoh", "point": -1, "answered": false }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Kendisiyle arkadaş olmak ister mi?",
+      "answers": [
+        { "text": "evet", "point": 1, "answered": false },
+        { "text": "bilmiyor", "point": 0, "answered": false },
+        { "text": "hayır", "point": -1, "answered": false }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "benimle arkadaş olmak ister mi?",
+      "answers": [
+        { "text": "he", "point": 1, "answered": false },
+        { "text": "ıh", "point": 0, "answered": false },
+        { "text": "yoh", "point": -1, "answered": false }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Kendisiyle arkadaş olmak ister mi?",
+      "answers": [
+        { "text": "evet", "point": 1, "answered": false },
+        { "text": "bilmiyor", "point": 0, "answered": false },
+        { "text": "hayır", "point": -1, "answered": false }
+      ]
+    }
+  ]
+}

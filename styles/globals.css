@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.do--not--show {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    cursor: pointer;
+    padding: 0 10px;
+    margin: 10px 0;
+}
