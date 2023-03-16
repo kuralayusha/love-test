@@ -17,14 +17,14 @@ export default function Home() {
           content="width=device-width, initial-scale=1"
         />
       </Head>
-      <div className="home--page">
-        <ul>
-          <li>About The Test</li>
-          <li>
+      <div className="page home">
+        <div className="main-box--container">
+          <button className="main-box one">About The Test</button>
+          <button className="main-box two">
             <Link href={'/test/settings'}>Lets Start</Link>
-          </li>
-          <li>Who am i ?</li>
-        </ul>
+          </button>
+          <button className="main-box three">Who am i ?</button>
+        </div>
       </div>
       <div className="do--not--show"></div>
     </>

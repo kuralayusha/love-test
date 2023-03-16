@@ -13,6 +13,8 @@ function Test() {
     setSettings({ ...settings, testType: e.target.innerText })
   }
 
+  console.log({ settings })
+
   function handleDuration(e: any) {
     setSettings({ ...settings, testDuration: e.target.innerText })
   }
@@ -37,18 +39,40 @@ function Test() {
   // console.log(theUrl)
 
   return (
-    <div>
-      <ul>
-        <li onClick={(e) => handleType(e)}>for a man</li>
-        <li onClick={(e) => handleType(e)}>for a woman</li>
-      </ul>
-      <ul>
-        <li onClick={(e) => handleDuration(e)}>short test</li>
-        <li onClick={(e) => handleDuration(e)}>long test</li>
-      </ul>
-      <button>
-        <Link href={theUrl}>Start the test</Link>
-      </button>
+    <div className="page settings">
+      <div className="page-top">
+        <div className="main-box--container left">
+          <button
+            className="main-box one"
+            onClick={(e) => handleType(e)}
+          >
+            for a man
+          </button>
+          <button
+            className="main-box two"
+            onClick={(e) => handleType(e)}
+          >
+            for a woman
+          </button>
+        </div>
+        <div className="main-box--container right">
+          <button
+            className="main-box three"
+            onClick={(e) => handleDuration(e)}
+          >
+            short test
+          </button>
+          <button
+            className="main-box four"
+            onClick={(e) => handleDuration(e)}
+          >
+            long test
+          </button>
+        </div>
+      </div>
+      <Link href={theUrl}>
+        <button className="continue-btn">Start the test</button>
+      </Link>
     </div>
   )
 }

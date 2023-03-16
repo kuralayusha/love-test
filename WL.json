@@ -4,88 +4,88 @@
       "id": 1,
       "question": "Kendisiyle arkadaş olmak ister mi ?",
       "answers": [
-        { "text": "evet", "point": 0.25 },
-        { "text": "bilmiyor(um)", "point": 0 },
-        { "text": "hayır", "point": 1 }
+        { "one": "evet", "point": 0.25 },
+        { "two": "bilmiyor(um)", "point": 0 },
+        { "three": "hayır", "point": 1 }
       ]
     },
     {
       "id": 2,
       "question": "Bir ay içerisinde ortalama kaç defa ağlar ?",
       "answers": [
-        { "text": "0", "point": -0.25 },
-        { "text": "1-3", "point": 0.5 },
-        { "text": "+3", "point": 2 }
+        { "one": "0", "point": -0.25 },
+        { "two": "1-3", "point": 0.5 },
+        { "three": "+3", "point": 2 }
       ]
     },
     {
       "id": 3,
       "question": "Yabancı kadınlarla arası nasıldır ?",
       "answers": [
-        { "text": "Samimi", "point": -0.25 },
-        { "text": "Samimi değil ama anlaşır", "point": 0.75 },
-        { "text": "Anlaşamaz", "point": 0.5 }
+        { "one": "Samimi", "point": -0.25 },
+        { "two": "Samimi değil ama anlaşır", "point": 0.75 },
+        { "three": "Anlaşamaz", "point": 0.5 }
       ]
     },
     {
       "id": 4,
       "question": "İstediğin bir şeyi yapmak için ne kadar sabırlıdır ?",
       "answers": [
-        { "text": "Hiç", "point": 0.75 },
-        { "text": "Biraz bekleyebilir", "point": 0.5 },
-        { "text": "Olana kadar çabalar", "point": 0 }
+        { "one": "Hiç", "point": 0.75 },
+        { "two": "Biraz bekleyebilir", "point": 0.5 },
+        { "three": "Olana kadar çabalar", "point": 0 }
       ]
     },
     {
       "id": 5,
       "question": "Görüştüğü kişinin ne yaptığını bilmiyorsa ne kadar süre haber almazsa kızar ?",
       "answers": [
-        { "text": "0-2 saat", "point": 0.75 },
-        { "text": "2-5 saat", "point": 0 },
-        { "text": "+8 saat", "point": 1 }
+        { "one": "0-2 saat", "point": 0.75 },
+        { "two": "2-5 saat", "point": 0 },
+        { "three": "+8 saat", "point": 1 }
       ]
     },
     {
       "id": 6,
       "question": "Para ne kadar önemlidir ?",
       "answers": [
-        { "text": "%0-%35", "point": 1 },
-        { "text": "%35-%70", "point": 1 },
-        { "text": "%70-%100", "point": 1 }
+        { "one": "%0-%35", "point": 1 },
+        { "two": "%35-%70", "point": 1 },
+        { "three": "%70-%100", "point": 1 }
       ]
     },
     {
       "id": 7,
       "question": "Sabahları ne kadar kolay uyanır ?",
       "answers": [
-        { "text": "Alarmına uyanabilir", "point": 0 },
-        { "text": "Fiziksel Temas Gerekir", "point": 1 },
-        { "text": "Odanın dışındaki sese bile uyanır", "point": 1 }
+        { "one": "Alarmına uyanabilir", "point": 0 },
+        { "two": "Fiziksel Temas Gerekir", "point": 1 },
+        { "three": "Odanın dışındaki sese bile uyanır", "point": 1 }
       ]
     },
     {
       "id": 8,
       "question": "Sabah rutini var mı ?",
       "answers": [
-        { "text": "Var", "point": 1 },
-        { "text": "Yok", "point": 1 }
+        { "one": "Var", "point": 1 },
+        { "two": "Yok", "point": 1 }
       ]
     },
     {
       "id": 9,
       "question": "Video oyunları oynar mı ?",
       "answers": [
-        { "text": "Evet", "point": 1 },
-        { "text": "Hayır", "point": 0.5 }
+        { "one": "Evet", "point": 1 },
+        { "two": "Hayır", "point": 0.5 }
       ]
     },
     {
       "id": 10,
       "question": "Aldatıldığını öğrense ne yapar ?",
       "answers": [
-        { "text": "Sessizce içine atar ve uzaklaşır", "point": 1 },
-        { "text": "Şok geçirir ve ağlar", "point": -0.2 },
-        { "text": "Kavga eder", "point": 1 }
+        { "one": "Sessizce içine atar ve uzaklaşır", "point": 1 },
+        { "two": "Şok geçirir ve ağlar", "point": -0.2 },
+        { "three": "Kavga eder", "point": 1 }
       ]
     }
   ]

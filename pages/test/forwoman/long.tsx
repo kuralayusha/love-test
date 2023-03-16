@@ -92,45 +92,105 @@ function WomanLong() {
   }
 
   return (
-    <div>
+    <div className="page test">
       {showQuestions && (
         <>
           {WLquestions.questions.map((question: any) => (
-            <div key={question.id}>
-              <h1>{question.question}</h1>
+            <div className="main-box--container" key={question.id}>
+              <button className="main-box zero">
+                {question.question}
+              </button>
               {question.answers.map((answer: any) => (
                 <button
+                  className={
+                    (answer.one && 'main-box one') ||
+                    (answer.two && 'main-box two') ||
+                    (answer.three && 'main-box three')
+                  }
                   key={answer.text}
                   onClick={() =>
                     handleAnswerClick(answer.point, question.id)
                   }
                 >
-                  {answer.text}
+                  {(answer.one && `${answer.one}`) ||
+                    (answer.two && `${answer.two}`) ||
+                    (answer.three && `${answer.three}`)}
                 </button>
               ))}
             </div>
           ))}
           <br />
-          <button onClick={handleSolution}>see the results</button>
+          <button className="continue-btn" onClick={handleSolution}>
+            see the results
+          </button>
         </>
       )}
       {showLastQuestion && (
-        <>
-          <h1>How Hot Is She For You</h1>
-          <ul>
-            <li onClick={handlePointH}>1</li>
-            <li onClick={handlePointH}>2</li>
-            <li onClick={handlePointH}>3</li>
-            <li onClick={handlePointH}>4</li>
-            <li onClick={handlePointH}>5</li>
-            <li onClick={handlePointH}>6</li>
-            <li onClick={handlePointH}>7</li>
-            <li onClick={handlePointH}>8</li>
-            <li onClick={handlePointH}>9</li>
-            <li onClick={handlePointH}>10</li>
-          </ul>
-          <button onClick={handleResultText}>confirm</button>
-        </>
+        <div className="page lastQ">
+          <button className="continue-btn two">
+            How Hot Is She For You
+          </button>
+          <div className="page lastQ--container">
+            <div className="main-box--container left">
+              <button className="main-box one" onClick={handlePointH}>
+                1
+              </button>
+              <button className="main-box two" onClick={handlePointH}>
+                2
+              </button>
+              <button
+                className="main-box three"
+                onClick={handlePointH}
+              >
+                3
+              </button>
+              <button
+                className="main-box four"
+                onClick={handlePointH}
+              >
+                4
+              </button>
+              <button
+                className="main-box five"
+                onClick={handlePointH}
+              >
+                5
+              </button>
+            </div>
+            <div className="main-box--container right">
+              <button className="main-box six" onClick={handlePointH}>
+                6
+              </button>
+              <button
+                className="main-box seven"
+                onClick={handlePointH}
+              >
+                7
+              </button>
+              <button
+                className="main-box eight"
+                onClick={handlePointH}
+              >
+                8
+              </button>
+              <button
+                className="main-box nine"
+                onClick={handlePointH}
+              >
+                9
+              </button>
+              <button className="main-box ten" onClick={handlePointH}>
+                10
+              </button>
+            </div>
+          </div>
+          <button
+            className="continue-btn three"
+            onClick={handleResultText}
+          >
+            confirm
+          </button>
+        </div>
       )}
       {showResult && <p>{resultText}</p>}
     </div>
