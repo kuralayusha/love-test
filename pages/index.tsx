@@ -13,10 +13,10 @@ export default function Home() {
   function handleAbout(e: any) {
     e.preventDefault()
     setShowAbout(e.target.innerText)
-    e.target.innerText === "About The Test"
+    e.target.innerText === "ABOUT THE TEST"
       ? setIsActive(true)
       : setIsActive(false)
-    e.target.innerText === "Who am i ?"
+    e.target.innerText === "WHO AM I ?"
       ? setIsActive2(true)
       : setIsActive2(false)
     console.log(e.target.innerText)
@@ -39,17 +39,17 @@ export default function Home() {
           <div className="main-box--container">
             <button
               className="main-box one"
-              onMouseEnter={(e) => handleAbout(e)}
+              onClick={(e) => handleAbout(e)}
               onMouseLeave={handleLeave}
             >
               About The Test
             </button>
-            <button className="main-box two">
-              <Link href={"/test/settings"}>Lets Start</Link>
-            </button>
+            <Link href={"/test/settings"}>
+              <button className="main-box two">Lets Start</button>
+            </Link>
             <button
               className="main-box three"
-              onMouseEnter={(e) => handleAbout(e)}
+              onClick={(e) => handleAbout(e)}
               onMouseLeave={handleLeave}
             >
               Who am i ?
@@ -67,10 +67,7 @@ export default function Home() {
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
               quasi porro quisquam. Eveniet, quibusdam quidem! Quis voluptates
               animi facilis iusto, aut, possimus facere sunt sapiente
-              praesentium expedita adipisci dolor. Iure, cupiditate autem
-              similique sit quia dolore modi perspiciatis suscipit laboriosam
-              inventore sequi dicta sapiente accusamus ad fugiat pariatur
-              tempore dolores?
+              praesentium expedita adipisci dolor. Quisquam, quae.
             </p>
             {/* )} */}
             {/* {showAbout === "Who am i ?" && ( */}
@@ -85,8 +82,6 @@ export default function Home() {
               quos quae aut! Reprehenderit odit, earum repellendus veritatis
               error architecto incidunt at obcaecati excepturi nostrum! Natus
               obcaecati expedita quam porro hic pariatur tenetur reiciendis
-              voluptatem nostrum consectetur officia animi rem aliquam culpa,
-              qui cumque quisquam a doloribus ab similique! Quae, pariatur.
             </p>
             {/* )} */}
           </div>
