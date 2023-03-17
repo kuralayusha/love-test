@@ -128,7 +128,7 @@
 
 .main-box--container.right.about .main-box.five.about::before,
 .main-box--container.right.about .main-box.four.about::before {
-  transform: translateX(40px) skewY(-45deg);
+  transform: translateX(0px) skewY(-45deg);
   transform-origin: left;
 }
 
@@ -140,6 +140,8 @@
 
 .main-box--container.right.about .main-box.four.about,
 .main-box--container.right.about .main-box.five.about {
+  /* overflow: hidden; */
+  height: 100%;
   animation: giveActive 0.45s ease-in-out;
 }
 

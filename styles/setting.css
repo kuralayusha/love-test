@@ -16,6 +16,10 @@
   text-transform: none;
 }
 
+.page.settings .main-box.two::after {
+  box-shadow: -140px 140px 20px rgba(0, 0, 0, 0.25);
+}
+
 .main-box--container.left {
   position: relative;
   transform: skewY(-15deg);

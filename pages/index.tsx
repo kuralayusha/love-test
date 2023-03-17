@@ -3,8 +3,6 @@ import Link from "next/link"
 
 import { useState } from "react"
 
-import "../styles/Home.module.css"
-
 export default function Home() {
   const [showAbout, setShowAbout] = useState<string>("")
   const [isActive, setIsActive] = useState<boolean>(false)
