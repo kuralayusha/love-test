@@ -142,34 +142,15 @@
 .main-box--container.right.about .main-box.five.about {
   /* overflow: hidden; */
   height: 100%;
-  animation: giveActive 0.45s ease-in-out;
+  transform: translate(0);
 }
 
 .main-box--container.right.about .main-box.four.about.inActive,
 .main-box--container.right.about .main-box.five.about.inActive {
   transform: translateX(100vw);
-  animation: giveInactive 0.7s ease-in-out;
 }
 
 .main-box--container.right.about .main-box.five.about {
   position: absolute;
   top: 0;
-}
-
-@keyframes giveActive {
-  0% {
-    transform: translateX(100vw);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-
-@keyframes giveInactive {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(100pvw);
-  }
 }

@@ -4,13 +4,11 @@ import Link from "next/link"
 import { useState } from "react"
 
 export default function Home() {
-  const [showAbout, setShowAbout] = useState<string>("")
   const [isActive, setIsActive] = useState<boolean>(false)
   const [isActive2, setIsActive2] = useState<boolean>(false)
 
   function handleAbout(e: any) {
     e.preventDefault()
-    setShowAbout(e.target.innerText)
     e.target.innerText === "ABOUT THE TEST"
       ? setIsActive(true)
       : setIsActive(false)
@@ -21,7 +19,6 @@ export default function Home() {
   }
 
   function handleLeave(e: any) {
-    setShowAbout("")
     setIsActive(false)
     setIsActive2(false)
   }
