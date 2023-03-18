@@ -154,3 +154,8 @@
   position: absolute;
   top: 0;
 }
+
+
+#home .main-box--container.right.about .main-box {
+  top: 0;
+}

@@ -2,46 +2,50 @@
   "questions": [
     {
       "id": 2,
-      "question": "Bir ay içerisinde ortalama kaç defa ağlar ?",
+      "question": "What kind of clothing style does she prefer?",
       "answers": [
-        { "text": "0", "point": 0 },
-        { "text": "1-3", "point": 1 },
-        { "text": "+3", "point": 3 }
+        { "one": "Comfortable and sporty", "point": 0.6 },
+        { "two": "Bold and attractive", "point": 1.2 },
+        { "three": "Simple and classic", "point": 0 }
       ]
     },
     {
       "id": 5,
-      "question": "Görüştüğü kişinin ne yaptığını bilmiyorsa ne kadar süre haber almazsa kızar ?",
+      "question": "What mood do you think she is in most during the day?",
       "answers": [
-        { "text": "0-2 saat", "point": 1 },
-        { "text": "2-5 saat", "point": 0 },
-        { "text": "+8 saat", "point": 2 }
+        { "one": "Positive", "point": 0.6 },
+        { "two": "Neutral", "point": 0 },
+        { "three": "Negative", "point": 1.2 }
       ]
     },
     {
       "id": 7,
-      "question": "Sabahları ne kadar kolay uyanır ?",
+      "question": "How shy is she?",
       "answers": [
-        { "text": "Alarmına uyanabilir", "point": 0 },
-        { "text": "Fiziksel Temas Gerekir", "point": 1 },
-        { "text": "Odanın dışındaki sese bile uyanır", "point": 2 }
+        { "one": "0-3", "point": 0.6 },
+        { "two": "3-7", "point": 0 },
+        { "three": "7-10", "point": 1.2 }
       ]
     },
     {
       "id": 9,
-      "question": "Video oyunları oynar mı ?",
+      "question": "What is her most active social media platform?",
       "answers": [
-        { "text": "Evet", "point": 2 },
-        { "text": "Hayır", "point": 1 }
+        { "one": "TikTok", "point": 1.2 },
+        { "two": "Instagram", "point": 0.6 },
+        { "three": "Twitter", "point": 1.2 }
       ]
     },
     {
       "id": 1,
-      "question": "Kendisiyle arkadaş olmak ister mi ?",
+      "question": "Assuming you are in a relationship with her, what is it about her that takes your breath away?",
       "answers": [
-        { "text": "evet", "point": 0.5 },
-        { "text": "bilmiyor(um)", "point": 0.25 },
-        { "text": "hayır", "point": 1 }
+        { "one": "the way she moves", "point": 0 },
+        { "two": "her physique", "point": 0.6 },
+        {
+          "three": "the inner beauty I know she possesses",
+          "point": 1.2
+        }
       ]
     }
   ]

@@ -2,92 +2,95 @@
   "questions": [
     {
       "id": 1,
-      "question": "Kendisiyle arkadaş olmak ister mi?",
+      "question": "When he wakes up in the morning, which of these phrases is he more likely to say?",
       "answers": [
-        { "text": "evet", "point": 1, "answered": false },
-        { "text": "bilmiyor", "point": 0, "answered": false },
-        { "text": "hayır", "point": -1, "answered": false }
+        { "one": "I hope something goes right today", "point": 0.3 },
+        { "two": "Wow, it's already evening", "point": 0.6 },
+        { "three": "What should I eat for breakfast?", "point": 0 }
       ]
     },
     {
       "id": 2,
-      "question": "benimle arkadaş olmak ister mi?",
+      "question": "Which element does he feel more connected to?",
       "answers": [
-        { "text": "he", "point": 1, "answered": false },
-        { "text": "ıh", "point": 0, "answered": false },
-        { "text": "yoh", "point": -1, "answered": false }
+        { "one": "Fire", "point": 0.3 },
+        { "two": "Water", "point": 0.6 },
+        { "three": "Earth", "point": 0 }
       ]
     },
     {
       "id": 3,
-      "question": "Kendisiyle arkadaş olmak ister mi?",
+      "question": "How does he get along with foreign men?",
       "answers": [
-        { "text": "evet", "point": 1, "answered": false },
-        { "text": "bilmiyor", "point": 0, "answered": false },
-        { "text": "hayır", "point": -1, "answered": false }
+        { "one": "Friendly", "point": 0.6 },
+        { "two": "Not friendly but can communicate", "point": 0 },
+        { "three": "Can't communicate", "point": 0.3 }
       ]
     },
     {
       "id": 4,
-      "question": "benimle arkadaş olmak ister mi?",
+      "question": "How patient is he when it comes to doing something he wants?",
       "answers": [
-        { "text": "he", "point": 1, "answered": false },
-        { "text": "ıh", "point": 0, "answered": false },
-        { "text": "yoh", "point": -1, "answered": false }
+        { "one": "Not at all", "point": 0.6 },
+        { "two": "Can wait a bit", "point": 0.3 },
+        { "three": "Will keep trying until he succeeds", "point": 0 }
       ]
     },
     {
       "id": 5,
-      "question": "Kendisiyle arkadaş olmak ister mi?",
+      "question": "What kind of clothing style does he prefer?",
       "answers": [
-        { "text": "evet", "point": 1, "answered": false },
-        { "text": "bilmiyor", "point": 0, "answered": false },
-        { "text": "hayır", "point": -1, "answered": false }
+        { "one": "Comfortable and sporty", "point": 0.6 },
+        { "two": "Bold and attractive", "point": 0 },
+        { "three": "Simple and classic", "point": 0.3 }
       ]
     },
     {
       "id": 6,
-      "question": "benimle arkadaş olmak ister mi?",
+      "question": "Which of these abilities does he want to have?",
       "answers": [
-        { "text": "he", "point": 1, "answered": false },
-        { "text": "ıh", "point": 0, "answered": false },
-        { "text": "yoh", "point": -1, "answered": false }
+        { "one": "Exceptional skills in a sport", "point": 0.3 },
+        {
+          "two": "Ability to play a musical instrument",
+          "point": 0.6
+        },
+        { "three": "A brilliant mind", "point": 0 }
       ]
     },
     {
       "id": 7,
-      "question": "Kendisiyle arkadaş olmak ister mi?",
+      "question": "What is the last thing he usually does before going to bed?",
       "answers": [
-        { "text": "evet", "point": 1, "answered": false },
-        { "text": "bilmiyor", "point": 0, "answered": false },
-        { "text": "hayır", "point": -1, "answered": false }
+        { "one": "Browsing social media", "point": 0.6 },
+        { "two": "Reading a book", "point": 0 },
+        { "three": "Playing a game", "point": 0.6 }
       ]
     },
     {
       "id": 8,
-      "question": "benimle arkadaş olmak ister mi?",
+      "question": "Which of these does he consume frequently during the day?",
       "answers": [
-        { "text": "he", "point": 1, "answered": false },
-        { "text": "ıh", "point": 0, "answered": false },
-        { "text": "yoh", "point": -1, "answered": false }
+        { "one": "Tea", "point": 0.3 },
+        { "two": "Coffee", "point": 0.6 },
+        { "three": "Water", "point": 0 }
       ]
     },
     {
       "id": 9,
-      "question": "Kendisiyle arkadaş olmak ister mi?",
+      "question": "What is more important to him in life?",
       "answers": [
-        { "text": "evet", "point": 1, "answered": false },
-        { "text": "bilmiyor", "point": 0, "answered": false },
-        { "text": "hayır", "point": -1, "answered": false }
+        { "one": "Family", "point": 0 },
+        { "two": "Money", "point": 0.3 },
+        { "three": "Love", "point": 0.6 }
       ]
     },
     {
       "id": 10,
-      "question": "benimle arkadaş olmak ister mi?",
+      "question": "Is he a social person?",
       "answers": [
-        { "text": "he", "point": 1, "answered": false },
-        { "text": "ıh", "point": 0, "answered": false },
-        { "text": "yoh", "point": -1, "answered": false }
+        { "one": "Yes", "point": 0.6 },
+        { "two": "Average", "point": 0 },
+        { "three": "No", "point": 0.3 }
       ]
     }
   ]

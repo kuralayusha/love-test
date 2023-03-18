@@ -1,20 +1,20 @@
-import Link from "next/link"
-import { useEffect, useState } from "react"
+import Link from 'next/link'
+import { useEffect, useState } from 'react'
 
 function Test() {
   const [settings, setSettings] = useState<any>({
-    testType: "",
-    testDuration: "",
+    testType: '',
+    testDuration: '',
   })
 
-  const [theUrl, setTheUrl] = useState<string>("")
+  const [theUrl, setTheUrl] = useState<string>('')
 
   function handleType(e: any) {
     if (!settings.testType) {
       setSettings({ ...settings, testType: e.target.innerText })
     } else {
       if (settings.testType === e.target.innerText) {
-        setSettings({ ...settings, testType: "" })
+        setSettings({ ...settings, testType: '' })
       } else {
         setSettings({ ...settings, testType: e.target.innerText })
       }
@@ -33,7 +33,7 @@ function Test() {
       setSettings({ ...settings, testDuration: e.target.innerText })
     } else {
       if (settings.testDuration === e.target.innerText) {
-        setSettings({ ...settings, testDuration: "" })
+        setSettings({ ...settings, testDuration: '' })
       } else {
         setSettings({ ...settings, testDuration: e.target.innerText })
       }
@@ -42,17 +42,17 @@ function Test() {
   }
 
   useEffect(() => {
-    if (settings.testType === "for a man") {
-      if (settings.testDuration === "short test") {
-        setTheUrl("/test/forman/short")
-      } else if (settings.testDuration === "long test") {
-        setTheUrl("/test/forman/long")
+    if (settings.testType === 'FOR MY BOYFRIEND') {
+      if (settings.testDuration === 'I AM PLATONIC') {
+        setTheUrl('/test/bf/platonic')
+      } else if (settings.testDuration === 'WE ARE TOGETHER') {
+        setTheUrl('/test/bf/together')
       }
-    } else if (settings.testType === "for a woman") {
-      if (settings.testDuration === "short test") {
-        setTheUrl("/test/forwoman/short")
-      } else if (settings.testDuration === "long test") {
-        setTheUrl("/test/forwoman/long")
+    } else if (settings.testType === 'FOR MY GIRLFRIEND') {
+      if (settings.testDuration === 'I AM PLATONIC') {
+        setTheUrl('/test/gf/platonic')
+      } else if (settings.testDuration === 'WE ARE TOGETHER') {
+        setTheUrl('/test/gf/together')
       }
     }
   }, [settings])
@@ -61,50 +61,50 @@ function Test() {
   // console.log(theUrl)
 
   return (
-    <div className="page settings">
+    <div className="page settings" id="settings">
       <div className="page-top">
         <div className="main-box--container left">
           <button
             className={
-              settings.testType === "for a man"
-                ? "main-box one man"
-                : "main-box one"
+              settings.testType === 'FOR MY BOYFRIEND'
+                ? 'main-box one man'
+                : 'main-box one'
             }
             onClick={(e) => handleType(e)}
           >
-            for a man
+            FOR MY BOYFRIEND
           </button>
           <button
             className={
-              settings.testType === "for a woman"
-                ? "main-box two woman"
-                : "main-box two"
+              settings.testType === 'FOR MY GIRLFRIEND'
+                ? 'main-box two woman'
+                : 'main-box two'
             }
             onClick={(e) => handleType(e)}
           >
-            for a woman
+            FOR MY GIRLFRIEND
           </button>
         </div>
         <div className="main-box--container right settings">
           <button
             className={
-              settings.testDuration === "short test"
-                ? "main-box three short"
-                : "main-box one"
+              settings.testDuration === 'I AM PLATONIC'
+                ? 'main-box three short'
+                : 'main-box one'
             }
             onClick={(e) => handleDuration(e)}
           >
-            short test
+            I AM PLATONIC
           </button>
           <button
             className={
-              settings.testDuration === "long test"
-                ? "main-box four long"
-                : "main-box four"
+              settings.testDuration === 'WE ARE TOGETHER'
+                ? 'main-box four long'
+                : 'main-box four'
             }
             onClick={(e) => handleDuration(e)}
           >
-            long test
+            WE ARE TOGETHER
           </button>
         </div>
       </div>

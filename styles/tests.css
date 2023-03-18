@@ -323,3 +323,57 @@
   background-color: #000000;
   border: 0.5px solid #ffffff;
 }
+
+
+.main-box.about.pink::after {
+  background-color: #a73d7f;
+}
+
+.main-box.about.pink::before {
+  background-color: #8c2e6a;
+}
+
+.main-box.about.green::after {
+  background-color: #267a4b;
+}
+
+.main-box.about.green::before {
+  background-color: #1f5a33;
+}
+
+.main-box.about.red::after {
+  background-color: #7f1a12;
+}
+
+.main-box.about.red::before {
+  background-color: #5f0d07;
+}
+
+.main-box.about.yellow::after {
+  background-color: #d1b03c;
+}
+
+.main-box.about.yellow::before {
+  background-color: #b28c2e;
+}
+
+.main-box.about.transparent::after {
+  background-color: transparent;
+  border: 0.5px solid #00000021;
+}
+
+.main-box.about.transparent::before {
+  background-color: transparent;
+  border: 0.5px solid #00000021;
+}
+
+.main-box.about.black::after {
+  background-color: #000000;
+  border: 0.5px solid #ffffff;
+}
+
+.main-box.about.black::before {
+  background-color: #000000;
+  border: 0.5px solid #ffffff;
+}
+

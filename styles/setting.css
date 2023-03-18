@@ -70,6 +70,10 @@
   z-index: 700;
 }
 
+#settings .continue-btn {
+  margin: 0;
+
+}
 .continue-btn {
   width: 200px;
   height: 60px;
