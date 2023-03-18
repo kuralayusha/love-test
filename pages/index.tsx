@@ -68,7 +68,7 @@ export default function Home() {
               There is no research or truth behind the data on this
               site. The purpose of the test is to find out which
               category the person you are interested in belongs to.
-              Don't leave any questions blank. Have fun!
+              Don&apos;t leave any questions blank. Have fun!
             </p>
             {/* )} */}
             {/* {showAbout === "Who am i ?" && ( */}
